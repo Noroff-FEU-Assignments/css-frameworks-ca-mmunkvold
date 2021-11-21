@@ -1,0 +1,53 @@
+.contact-form {
+  background: $light;
+  margin: 2em 0 13em;
+  padding: 2em;
+  box-shadow: $box-shadow;
+}
+
+#inputGroupPrepend {
+  background: $lightgrey;
+  color: $white;
+}
+
+.contact-form__button {
+  background: $grey !important;
+  width: 100%;
+
+  &:hover {
+    background: $primary !important;
+  }
+}
+
+.form-check-input {
+  background: $primary;
+  border: none !important;
+  padding: 0.8em;
+}
+
+#formBasicCheckbox {
+  margin-right: 0.5em;
+}
+
+.form-check-label {
+  font-size: small;
+}
+
+.form-control,
+.list-group li {
+  border: none;
+}
+
+.list-group {
+  margin: 8em 0 0 2em;
+}
+
+.list-group li {
+  background: none;
+}
+
+.contact__icon {
+  margin: 0 1em 0 2em;
+  color: $grey;
+  font-size: 1.5em !important;
+}

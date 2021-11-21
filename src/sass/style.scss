@@ -1,0 +1,11 @@
+$pagination-active-bg: #e92569;
+
+@import "~bootstrap/scss/bootstrap";
+@import "partials/custom";
+
+@import "./partials/contact";
+@import "./partials/home";
+@import "./partials/typography";
+@import "./partials/layout";
+@import "./partials/news";
+@import "./partials/nav";

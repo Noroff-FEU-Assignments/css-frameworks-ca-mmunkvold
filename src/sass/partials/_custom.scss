@@ -1,0 +1,28 @@
+$primary: #e92569;
+$white: #fff;
+$light: #efefef;
+$dark: #0a0a0a;
+$grey: #767676;
+$lightgrey: #c7c7c7;
+
+$body-bg: radial-gradient(#fff, #e5e5e5);
+$body-color: $grey;
+
+$theme-colors: (
+  "primary": $primary,
+  "light": $light,
+);
+
+$colour-input: $white;
+
+$input-bg: $colour-input;
+$input-border-color: $colour-input;
+
+$input-placeholder-color: $body-color;
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $primary;
+
+$border-radius: 10px;
+$border-color: #d1d1d1;

@@ -1,0 +1,76 @@
+/* News page */
+
+.card {
+  border-radius: 15px;
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  border-radius: 10px;
+  padding: 1.5em;
+}
+
+.btn-news {
+  text-transform: uppercase;
+  /* background-image: linear-gradient(to right, red 85%, grey 15%); /* This also divides the button in two colors, but also the use of pseudo class before as seen below */
+  animation: slideOut 0.7s forwards;
+  position: relative;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-news:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35px;
+  height: 100%;
+  background: grey;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn-news:hover {
+  animation: slideIn 0.5s forwards;
+  /* background-image: t linear-gradient(to left, grey 85%, red 15%);
+    transition: ease-in-out; */
+}
+/* grey hover? */
+@keyframes slideIn {
+  from {
+    box-shadow: inset-block-start 0 0 0 0.01px red;
+  }
+  to {
+    box-shadow: inset -13em 0 0 0.01px grey;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    box-shadow: inset -13em 0 0 0.01px grey;
+  }
+  to {
+    box-shadow: inset-block-start 0 0 0 0.01px red;
+  }
+}
+
+.mrg-btm {
+  margin-bottom: 2em;
+}
+
+/* or red hover? */
+/* @keyframes slide {
+    from {
+      box-shadow: inset 0 0 0 0.01px grey;
+    }
+    to {
+      box-shadow: inset 13em 0 0 0.01px red;
+    }
+  } */

@@ -1,0 +1,40 @@
+/* Contact page */
+
+.contact-form {
+  background: #efefef;
+  margin: 2em 0 13em;
+  padding: 2em;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.22);
+}
+
+#inputGroupPrepend {
+  background: #c7c7c7;
+  color: #fff;
+}
+
+.contact-form__button {
+  background: #767676;
+  width: 100%;
+}
+
+.form-check-input {
+  background: red;
+}
+.form-control {
+  background: #fff;
+  border: none;
+}
+.icon {
+  margin-left: 1em;
+  color: #000;
+}
+
+.list-group {
+  margin: 3em 0 0 2em;
+}
+
+.list-group li {
+  /* This is ok? Or other ways to write it better? */
+  border: none;
+  background: none;
+}

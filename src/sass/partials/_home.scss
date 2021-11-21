@@ -1,0 +1,96 @@
+/* ContentTabs */
+
+.mb-3 {
+  margin-bottom: 0 !important;
+}
+
+#uncontrolled-tab-example-tab-first,
+#uncontrolled-tab-example-tab-second,
+#uncontrolled-tab-example-tab-third {
+  border-radius: $border-radius $border-radius 0 0;
+  box-shadow: none;
+}
+
+.tab-pane {
+  padding: 2em;
+  border-left: $border-width solid $border-color;
+  background: $white;
+}
+
+.tab-img {
+  width: 25%;
+  padding: 0 1.5em 0 0;
+}
+
+.nav-link {
+  color: $primary;
+
+  &:hover {
+    color: $grey;
+  }
+}
+
+/* Carousel */
+
+.carousel-indicators [data-bs-target] {
+  background: $white;
+  opacity: 100%;
+  border-radius: 2px;
+  box-shadow: 2px 10px 30px 0px rgba($black, 1.75);
+  padding-top: 0.3em;
+  margin: 0 0.5em;
+}
+
+.carousel-indicators .active {
+  background: $primary;
+}
+
+/* Accordion */
+
+.accordion {
+  box-shadow: $box-shadow;
+}
+
+.accordion-button {
+  color: $primary;
+  font-family: $font-family-base;
+
+  &:hover {
+    color: $grey !important;
+  }
+
+  &::after {
+    display: none !important;
+  }
+}
+
+.accordion-button:not(.collapsed) {
+  color: $primary !important;
+}
+
+.accordion-item [aria-expanded="true"] {
+  background-color: $white;
+  border-bottom: $border-width solid $primary;
+}
+
+.accordion-item {
+  border-bottom: $border-width solid $border-color;
+}
+
+.accordion-body {
+  background: radial-gradient($white, #f5f5f5);
+  padding: 1em;
+}
+
+.text-social {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+  .main__text {
+    padding: 1em;
+  }
+}

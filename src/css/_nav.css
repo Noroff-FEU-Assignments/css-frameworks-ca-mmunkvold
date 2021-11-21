@@ -1,0 +1,61 @@
+.navbar-brand {
+  color: red !important;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+/* #basic-navbar-nav {
+    padding: 1.5em 2em;
+  } */
+
+.navbar-toggler {
+  border: none;
+}
+
+.me-2 {
+  margin-right: 0 !important;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 0;
+  padding-left: 1.2em;
+}
+
+.me-2,
+.btn-outline-success {
+  /* This is good on small screen, but not on bigger screen...  */
+  margin: 2em 0 1em;
+}
+
+.btn-outline-success {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 0;
+  background: red;
+  color: white;
+  border: none;
+}
+/* @media (max-width: 575px) { */
+/* This is not good on big screen, and pushes down menu on small screen, but not the smallest... */
+/* .navbar-collapse {
+    position: absolute;
+    top: 2.5em;
+    left: 0;
+    padding: 1rem 0 4rem 4rem;
+    background: #efefef;
+    box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 1000;
+    /* transition: $navbar-toggler-transition; 
+  } */
+
+/* Navigasjon */
+
+.navbar {
+  background: #efefef;
+}
+.sr-only {
+  display: none;
+}

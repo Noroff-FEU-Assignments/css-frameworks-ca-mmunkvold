@@ -1,0 +1,72 @@
+.navbar {
+  background: $light !important;
+}
+
+.sr-only {
+  display: none;
+}
+
+.navbar .active,
+.nav-link.active {
+  background: $white !important;
+  position: relative;
+}
+
+.navbar-brand {
+  color: $primary !important;
+  font-family: $headings-font-family;
+  font-style: italic;
+  font-weight: bold;
+
+  &:hover {
+    color: $grey !important;
+  }
+}
+
+/* Collapsible nav */
+
+.navbar-toggler {
+  font-size: 1.3rem;
+  border: none;
+}
+
+/* Search */
+
+.me-2 {
+  margin-right: 0 !important;
+  border-radius: 5px 0 0 5px;
+  padding-left: 1.2em;
+  max-width: 85%;
+}
+
+.btn-outline-success {
+  border-radius: 0 5px 5px 0;
+  background: $primary;
+  color: $white;
+
+  &:hover {
+    background: $grey;
+  }
+}
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    padding-bottom: 2em;
+    top: 2.5em;
+    left: 0;
+    background: $light;
+    box-shadow: 0px 12px 12px 0px rgba($black, 0.1);
+    width: 100%;
+    z-index: 1000;
+    transition: $navbar-toggler-transition;
+  }
+
+  .nav-link {
+    padding: 0.5em 2rem !important;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+}

@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(#fff, #e5e5e5);
+  font-family: $font-family-base;
+}
+
+button,
+.btn {
+  background: $primary;
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.container {
+  margin-bottom: 6rem;
+}
+
+.container__nav {
+  margin-bottom: 0;
+}
+
+.container__footer {
+  margin-bottom: 0;
+  padding: 2em 0.5em 1em;
+}
+
+footer {
+  flex-shrink: 0;
+  background: $white;
+  color: $body-color;
+  padding: 0.5em;
+}
+
+footer a {
+  text-decoration: none;
+  color: $body-color;
+}
+
+.footer__icon {
+  color: $grey;
+  padding: 0 2em 1em;
+}
+
+.vimeo-icon {
+  margin-right: 1em;
+}
